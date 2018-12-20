@@ -10,6 +10,11 @@
 Route::get('/', 'PostsController@index');
 Route::get('posts/{id}', 'PostsController@show');
 
+Route::get('/cityAPI','ProfessionalController@getstate');
+
+Route::get('/alunos','AlunosController@getAluno');
+
+
 /*Route::get('/', function () {
 	
 
