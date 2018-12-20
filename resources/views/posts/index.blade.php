@@ -17,7 +17,9 @@
 				<div class="panel-body">
 
 					<a href="/posts/{{ $post->id }}">
+
 						{{ $post->title }}
+						
 					</a>					
 
 				</div>
